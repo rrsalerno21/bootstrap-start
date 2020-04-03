@@ -3,49 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pulling Myself Up by My Bootstraps</title>
+    <title>Rocky's Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@600&family=Work+Sans&display=swap" rel="stylesheet">    
+    <script src="https://kit.fontawesome.com/ad97605fad.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
+
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="./index.html">Rocky</a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">My Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-outline-primary" href="#">Contact Me</a>
+                </li>
+              </ul>
+        </nav>
+    </header>
 
       <!-- Hero Image -->
-      <img src="..." alt="">
+      <section class="jumbotron" id="align-center">
+        <h1 class="display-4">Full Stack Web Developer</h1>
+        <p class="lead">I create functional and dynamic web apps, and I love what I do.</p>
+        
+        <img id="rocky-image" src="./assets/images/rocky-photo.jpg" alt="Rocky's Profile Image"/>
+        <a href="#portfolio"><i id="down-arrow" class="fas fa-angle-down"></i></a>
+      </section>
+
+
+      <main>
+          <!-- My portfolio section, with three card boxes for like a blog post -->
+          <section id="portfolio" class="container-fluid p-3 mb-2 bg-light text-dark">
+              <h2 class="text-center text-dark">My Portfolio</h2>
+                <div class="row justify-content-center">
+                    <div class="col-sm text-center">
+                        <div class="card card-top-spacing shadow p-3 mb-5 bg-white rounded">
+                            <img src="./assets/images/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <h5 class="card-title">Apphap</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                              </div>
+                          </div>
+                    </div>
+    
+                    <div class="col-sm text-center">
+                        <div class="card card-top-spacing shadow p-3 mb-5 bg-white rounded">
+                          <img src="./assets/images/christopher-gower-m_HRfLhgABo-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Schedua</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-sm text-center">
+                        <div class="card card-top-spacing shadow p-3 mb-5 bg-white rounded">
+                          <img src="./assets/images/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Illist</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>        
+            </section>
+      </main>
+
+      
+
+      <!-- Footer -->
+    <footer class="container-fluid">
+        <h2>Work In Progress</h2>
+        <i id="footer-icon" class="fas fa-spin fa-cloud-meatball text-primary"></i>
+    </footer>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
