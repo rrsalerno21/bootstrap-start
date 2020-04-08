@@ -13,7 +13,7 @@ h1 {
     
 }
 
-#align-center {
+.align-center {
     text-align: center;
 }
 
@@ -32,17 +32,27 @@ h1 {
 }
 
 #rocky-image {
-    max-width: 350px;
+    width: 350px;
+    margin-top: 50px;
     border-radius: 200px;
-    margin: 50px;
 }
 
 .card-top-spacing {
     margin-top: 50px;
 }
 
-#portfolio h2 {
+#portfolio h2, #about-me h2 {
     margin-top: 20px;
+}
+
+.my-gradient {
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#social {
+    font-size: 30px;
 }
 
 footer {
@@ -53,4 +63,34 @@ footer {
 #footer-icon {
     font-size: 50px;
     margin-top: 20px;
+}
+
+@media only screen and (max-width:640px) {
+    #nav-bar {
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #name-banner {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    #outline-button {
+        border: 0px solid white;
+    }
+
+    .btn-outline-primary:hover {
+        color: #0056b3;
+        background-color: #ffffff;
+        border-color: #ffffff;
+    }
+    
+    #contact-section {
+        margin: 0px auto !important;
+        
+    }
 }

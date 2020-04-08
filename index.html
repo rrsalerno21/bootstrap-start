@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rocky's Profile</title>
+
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@600&family=Work+Sans&display=swap" rel="stylesheet">    
     <script src="https://kit.fontawesome.com/ad97605fad.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -12,73 +13,146 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="./index.html">Rocky</a>
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">My Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn btn-outline-primary" href="#">Contact Me</a>
-                </li>
-              </ul>
+        
+        <nav id="nav-bar" class="navbar navbar-light bg-light py-0 border-bottom shadow-sm bg-white rounded">
+            <a id="name-banner" class="navbar-brand p-3 my-gradient text-white" href="#">Rocky Salerno</a>
+            <div>
+                <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="./portfolio.html">My Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#about-me">About Me</a>
+                      </li>
+                    <li class="nav-item">
+                        <a id="outline-button" class="nav-link btn btn-outline-primary" href="./contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-      <!-- Hero Image -->
-      <section class="jumbotron" id="align-center">
+    <!-- Hero Image -->
+    <section class="jumbotron text-center">
         <h1 class="display-4">Full Stack Web Developer</h1>
         <p class="lead">I create functional and dynamic web apps, and I love what I do.</p>
-        
-        <img id="rocky-image" src="./assets/images/rocky-photo.jpg" alt="Rocky's Profile Image"/>
-        <a href="#portfolio"><i id="down-arrow" class="fas fa-angle-down"></i></a>
-      </section>
-
-
-      <main>
-          <!-- My portfolio section, with three card boxes for like a blog post -->
-          <section id="portfolio" class="container-fluid p-3 mb-2 bg-light text-dark">
-              <h2 class="text-center text-dark">My Portfolio</h2>
-                <div class="row justify-content-center">
-                    <div class="col-sm text-center">
-                        <div class="card card-top-spacing shadow p-3 mb-5 bg-white rounded">
-                            <img src="./assets/images/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                  <h5 class="card-title">Apphap</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                              </div>
-                          </div>
-                    </div>
     
-                    <div class="col-sm text-center">
-                        <div class="card card-top-spacing shadow p-3 mb-5 bg-white rounded">
-                          <img src="./assets/images/christopher-gower-m_HRfLhgABo-unsplash.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Schedua</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+        <img id="rocky-image" class="img-fluid" src="./assets/images/rocky-photo.jpg" alt="Rocky's Profile Image"/>
+        <a href="#about-me"><i id="down-arrow" class="fas fa-angle-down"></i></a>
+    </section>
+
+
+    <main>
+
+        <!-- About Me Section-->
+        <section id="about-me" class="container-fluid p-5 mb-2 bg-primary text-white text-center my-gradient">
+            <h2>Hi, I'm Rocky.  <small class="text-white-60">Nice to meet you.</small></h2>
+            <p class="lead mx-2">
+                Since beginning my time as a website designer nearly 3 years ago in the SaaS tech industry, I've done both freelance and industry website design and development with incredibly talented people.  I am empathetic, naturally curious, and consistently working to improve my skills, one project at a time.
+            </p>
+        </section>            
+
+        <!-- My portfolio section, with three card boxes for like a blog post -->
+        <section id="portfolio" class="container-fluid p-3 bg-light text-dark">
+            <h2 class="text-center text-dark">My Portfolio</h2>
+            <div class="row justify-content-center">
+                <div class="col-sm text-center">
+                    <div class="card card-top-spacing shadow p-3 mb-5 bg-white rounded">
+                        <img src="./assets/images/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Apphap</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm text-center">
+                    <div class="card card-top-spacing shadow p-3 mb-5 bg-white rounded">
+                    <img src="./assets/images/christopher-gower-m_HRfLhgABo-unsplash.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Schedua</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm text-center">
+                    <div class="card card-top-spacing shadow p-3 mb-5 bg-white rounded">
+                    <img src="./assets/images/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Illist</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <a class="btn btn-outline-primary" href="./portfolio.html" role="button">View More</a>
+            </div>
+        </section>
+
+        <!-- Contact Me Section-->
+        <section>
+            <div class="container-fluid bg-dark p-3">
+                <div class="row">
+                    <div class="col-sm-6 text-white text-center align-self-center my-3">
+                        <h2>Let's Connect</h2>
+
+                        <p>Send me an email and let's chat.  I'll buy the coffee.</p>
+
+                        <div id="social" class="row justify-content-around mb-2">
+                            <div class="col-3">
+                                <a href=""><i class="fab fa-linkedin-in text-white"></i></a>
+                            </div>
+                            <div class="col-3">
+                                <a href=""><i class="fab fa-github-square text-white"></i></a>
+                            </div>
+                            <div class="col-3">
+                                <a href=""><i class="fab fa-stack-overflow text-white"></i></a>
+                            </div>
+                            <div class="col-3">
+                                <a href=""><i class="fab fa-facebook-square text-white"></i></a>
                             </div>
                         </div>
                     </div>
-    
-                    <div class="col-sm text-center">
-                        <div class="card card-top-spacing shadow p-3 mb-5 bg-white rounded">
-                          <img src="./assets/images/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Illist</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
+
+                    <div class="col-sm-6">
+                        <div class="container-fluid bg-white p-3 shadow-sm bg-white rounded  justify-content-center">
+                            <h2>Contact</h2>
+                            <form>
+                                <div class="form-group">
+                                  <label for="exampleFormControlInput1">Name</label>
+                                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                                </div>
+                    
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                  </div>
+                    
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">How Can I Help?</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                  </div>
+                                  <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>    
                         </div>
                     </div>
-                </div>        
-            </section>
-      </main>
+                </div>
+            </div>
+            
+        </section>
+
+
+    </main>
 
       
 
-      <!-- Footer -->
+    <!-- Footer -->
     <footer class="container-fluid">
         <h2>Work In Progress</h2>
         <i id="footer-icon" class="fas fa-spin fa-cloud-meatball text-primary"></i>
