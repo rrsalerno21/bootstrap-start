@@ -14,7 +14,7 @@
 
     <header>
         
-        <nav id="nav-bar" class="navbar navbar-light bg-light py-0 border-bottom shadow-sm bg-white rounded">
+        <nav id="nav-bar" class="navbar navbar-light bg-white py-0 border-bottom shadow-sm rounded">
             <a id="name-banner" class="navbar-brand p-3 my-gradient text-white" href="#">Rocky Salerno</a>
             <div>
                 <ul class="nav">
@@ -30,66 +30,82 @@
                 </ul>
             </div>
         </nav>
+
+        <!-- H1 and sub tag -->
+        <section class="jumbotron text-center bg-white">
+            <h1 class="display-4">Full Stack Web Developer</h1>
+            <p class="lead">I create functional and dynamic web apps, and I love what I do.</p>
+            
+            <!-- Hero Image -->
+            <img id="rocky-image" class="img-fluid" src="./assets/images/rocky-photo.jpg" alt="Rocky's Profile Image"/>
+            
+            <!-- Font Awesome Down Arrow Icon -->
+            <a href="#about-me"><i id="down-arrow" class="fas fa-angle-down"></i></a>
+        </section>
     </header>
 
-    <!-- Hero Image -->
-    <section class="jumbotron text-center">
-        <h1 class="display-4">Full Stack Web Developer</h1>
-        <p class="lead">I create functional and dynamic web apps, and I love what I do.</p>
-    
-        <img id="rocky-image" class="img-fluid" src="./assets/images/rocky-photo.jpg" alt="Rocky's Profile Image"/>
-        <a href="#about-me"><i id="down-arrow" class="fas fa-angle-down"></i></a>
-    </section>
-
-
+    <!-- Main content-->
     <main>
 
         <!-- About Me Section-->
         <section id="about-me" class="container-fluid p-5 mb-2 bg-primary text-white text-center my-gradient">
             <h2>Hi, I'm Rocky.  <small class="text-white-60">Nice to meet you.</small></h2>
             <p class="lead mx-2">
-                Since beginning my time as a website designer nearly 3 years ago in the SaaS tech industry, I've done both freelance and industry website design and development with incredibly talented people.  I am empathetic, naturally curious, and consistently working to improve my skills, one project at a time.
+                Since the start of my career as a website designer nearly 3 years ago in the SaaS tech industry, I've done both freelance and industry website design and development with incredibly talented people.  I am empathetic, naturally curious, and consistently working to improve my skills, one project at a time.
             </p>
         </section>            
 
-        <!-- My portfolio section, with three card boxes for like a blog post -->
+        <!-- My portfolio section, with three card boxes per row -->
         <section id="portfolio" class="container-fluid p-3 bg-light text-dark">
             <h2 class="text-center text-dark">My Portfolio</h2>
+
+            <!-- First row of portfolio -->
             <div class="row justify-content-center">
+                <!-- First Column -->
                 <div class="col-sm text-center">
+                    <!-- First Card -->
                     <div class="card card-top-spacing shadow p-3 mb-5 bg-white rounded">
-                        <img src="./assets/images/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg" class="card-img-top" alt="...">
+                        <img src="./assets/images/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg" class="card-img-top" alt="Coding photo">
                         <div class="card-body">
                             <h5 class="card-title">Apphap</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <p class="card-text">Lucas ipsum dolor sit amet dantooine kashyyyk bespin lucas darth greedo dantooine.</p>
+                            <a href="#portfolio" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
+                <!-- End of First Column -->
 
+                <!-- Second Column -->
                 <div class="col-sm text-center">
+                    <!-- Second Card -->
                     <div class="card card-top-spacing shadow p-3 mb-5 bg-white rounded">
-                    <img src="./assets/images/christopher-gower-m_HRfLhgABo-unsplash.jpg" class="card-img-top" alt="...">
+                    <img src="./assets/images/christopher-gower-m_HRfLhgABo-unsplash.jpg" class="card-img-top" alt="Coding photo">
                         <div class="card-body">
                             <h5 class="card-title">Schedua</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <p class="card-text">Grievous antilles jawa solo. Vader jawa moff antilles. Zabrak antilles lobot alderaan solo yavin lobot.</p>
+                            <a href="#portfolio" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
+                <!-- End of Second Column -->
 
+                <!-- Third Column -->
                 <div class="col-sm text-center">
+                    <!-- Third Card -->
                     <div class="card card-top-spacing shadow p-3 mb-5 bg-white rounded">
-                    <img src="./assets/images/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg" class="card-img-top" alt="...">
+                    <img src="./assets/images/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg" class="card-img-top" alt="Coding photo">
                         <div class="card-body">
                             <h5 class="card-title">Illist</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <p class="card-text">Lucas ipsum dolor sit amet dantooine kashyyyk bespin lucas darth greedo dantooine.</p>
+                            <a href="#portfolio" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
+                <!-- End of Third Column -->
             </div>
+            <!-- End of Row -->
             
+            <!-- View More Button-->
             <div class="text-center">
                 <a class="btn btn-outline-primary" href="./portfolio.html" role="button">View More</a>
             </div>
@@ -98,50 +114,64 @@
         <!-- Contact Me Section-->
         <section>
             <div class="container-fluid bg-dark p-3">
+                <!-- Start of Row -->
                 <div class="row">
+                    <!-- First column for Text -->
                     <div class="col-sm-6 text-white text-center align-self-center my-3">
                         <h2>Let's Connect</h2>
 
                         <p>Send me an email and let's chat.  I'll buy the coffee.</p>
 
-                        <div id="social" class="row justify-content-around mb-2">
+                        <!-- Inner Row for Social Media Icons -->
+                        <div id="social" class="row justify-content-center mb-2 mx-2">
                             <div class="col-3">
-                                <a href=""><i class="fab fa-linkedin-in text-white"></i></a>
+                                <a href="https://www.linkedin.com/in/robert-rocky-salerno-145a85bb/" target="_blank"><i class="fab fa-linkedin-in text-white"></i></a>
                             </div>
                             <div class="col-3">
-                                <a href=""><i class="fab fa-github-square text-white"></i></a>
+                                <a href="https://github.com/rrsalerno21" target="_blank"><i class="fab fa-github-square text-white"></i></a>
                             </div>
                             <div class="col-3">
-                                <a href=""><i class="fab fa-stack-overflow text-white"></i></a>
+                                <a href="https://stackoverflow.com/users/12925714/rrsalerno21?tab=profile" target="_blank"><i class="fab fa-stack-overflow text-white"></i></a>
                             </div>
                             <div class="col-3">
-                                <a href=""><i class="fab fa-facebook-square text-white"></i></a>
+                                <a href="https://www.facebook.com/rockysalerno/" target="_blank"><i class="fab fa-facebook-square text-white"></i></a>
                             </div>
                         </div>
+                        <!-- End of inner row for social media-->
                     </div>
+                    <!-- End of First Column -->
 
+                    <!-- Second column for contact form -->
                     <div class="col-sm-6">
                         <div class="container-fluid bg-white p-3 shadow-sm bg-white rounded  justify-content-center">
                             <h2>Contact</h2>
+
+                            <!-- Start of form-->
                             <form>
+                                <!-- Name Field -->
                                 <div class="form-group">
                                   <label for="exampleFormControlInput1">Name</label>
                                   <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
                                 </div>
-                    
+                                
+                                <!-- Email Field -->
                                 <div class="form-group">
                                     <label for="exampleFormControlInput1">Email address</label>
                                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                                  </div>
-                    
+                                </div>
+                                
+                                <!-- Message Field -->
                                 <div class="form-group">
                                     <label for="exampleFormControlTextarea1">How Can I Help?</label>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                  </div>
-                                  <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+
+                                <!-- Submit button -->
+                                <button type="submit" class="btn btn-primary">Submit</button>
                             </form>    
                         </div>
                     </div>
+                    <!-- End of Second Column -->
                 </div>
             </div>
             
