@@ -1,9 +1,11 @@
 # Rocky Salerno's Portfolio Website
 
 ## Description
-This repo contains the code for my portfolio.  It's like my personal online business card to highlight my work and gather leads for future projects.  It's currently a work in progress.  If you have any suggestions or would like to commit to it, feel free.
+This repository contains the source code for rrsalerno21.github.io.
+
+ It's like my personal online business card to highlight my work and gather leads for future projects.  It's currently a work in progress.  Contact me if you have any suggestions.
 
 ## License
 Source code is licensed under the MIT license.
 
-Contents of this site are © Copyright 2017-2019 Alex Lende. All rights reserved.
+Contents of this site are © Copyright 2020 Robert Salerno. All rights reserved.
