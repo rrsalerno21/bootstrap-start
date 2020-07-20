@@ -56,7 +56,10 @@ a.my-gradient:hover {
     color: #0056b3;  /* fallback for old browsers */
 }
 
-
+/* hr for portfolio width */
+.my-hr {
+    width: 10%;
+}
 
 /* Spacing for the card portfolio section */
 .card-top-spacing {
