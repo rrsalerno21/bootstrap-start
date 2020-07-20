@@ -8,6 +8,11 @@ h1 {
     font-family: 'Work Sans', sans-serif;  
 }
 
+/* Adjust left padding on navbar */
+.navbar {
+    padding-left: 0rem;
+}
+
 /* Text align to center class */
 .align-center {
     text-align: center;
