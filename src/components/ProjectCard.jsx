@@ -1,22 +1,19 @@
 import React from "react";
 
-const ProjectCard = (prop) => {
+const ProjectCard = ({ project }) => {
   return (
     <React.Fragment>
       <div className="card card-top-spacing shadow p-3 mb-5 bg-white rounded">
         <img
-          src="./assets/images/forget-me-not-app-dashboard-jpg.jpg"
+          src={project.img}
           className="card-img-top shadow"
-          alt="Forget Me Not app dashboard"
+          alt={project.name}
         />
         <div className="card-body">
-          <h5 className="card-title">Forget Me Not</h5>
-          <p className="card-text">
-            Securly keep track of your to-do lists while viewing current COVID
-            data by state.
-          </p>
+          <h5 className="card-title">{project.name}</h5>
+          <p className="card-text">{project.desc}</p>
           <a
-            href="https://secret-journey-60945.herokuapp.com/"
+            href={project.src}
             className="btn btn-primary my-gradient"
             target="_blank"
             rel="noopener noreferrer"
@@ -25,10 +22,10 @@ const ProjectCard = (prop) => {
           </a>
           <br />
           <a
-            href="https://github.com/rrsalerno21/project-2"
+            href={project.gH}
             target="_blank"
             rel="noopener noreferrer"
-            className="my-1"
+            className="my-2"
           >
             View GitHub
           </a>

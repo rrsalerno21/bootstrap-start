@@ -3,14 +3,15 @@ import NavBar from "./NavBar";
 import Hero from "./Hero";
 import AboutMe from "./AboutMe";
 import "../styles/App.css";
+import HomePortfolio from "./HomePortfolio";
 import {
-  forgetMeNot,
   noteTaker,
   seeFood,
   toDoList,
   weatherApp,
   workDayCalendar,
 } from "../images/";
+import forgetMeNot from "../images/forget-me-not-app-dashboard-jpg.jpg";
 
 class App extends Component {
   state = {
@@ -66,7 +67,7 @@ class App extends Component {
     ],
   };
   render() {
-    const hiLightProjs = this.state.allProjects.slice(0, 2);
+    const hiLightProjs = this.state.allProjects.slice(0, 3);
     return (
       <React.Fragment>
         <header>
@@ -75,6 +76,7 @@ class App extends Component {
         </header>
         <main>
           <AboutMe />
+          <HomePortfolio hiLightProjs={hiLightProjs} />
         </main>
       </React.Fragment>
     );
