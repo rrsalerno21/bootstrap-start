@@ -82,6 +82,7 @@ class App extends Component {
           <Route
             exact
             path="/portfolio"
+            onClick={() => window.scrollTo(0, 0)}
             render={() => <Portfolio projects={this.state.allProjects} />}
           />
         </main>

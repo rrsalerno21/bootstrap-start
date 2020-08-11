@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ProjectContainer from "./ProjectContainer";
 
 const HomePortfolio = ({ projects }) => {
@@ -12,13 +13,13 @@ const HomePortfolio = ({ projects }) => {
         <ProjectContainer projects={projects} />
 
         <div className="text-center">
-          <a
+          <Link
             className="btn btn-outline-primary"
-            href="./portfolio.html"
+            to="/portfolio"
             role="button"
           >
             View More
-          </a>
+          </Link>
         </div>
       </section>
     </React.Fragment>
