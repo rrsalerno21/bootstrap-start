@@ -1,4 +1,5 @@
 import React from "react";
+import Pdf from "../images/robert-salerno-full-stack-developer-resume.pdf";
 
 const SocialIconLine = ({ color }) => {
   return (
@@ -65,10 +66,7 @@ const SocialIconLine = ({ color }) => {
           </a>
         </div>
         <div className="col-auto mx-1">
-          <a
-            href="assets/images/robert-salerno-full-stack-developer-resume.pdf"
-            target="_blank"
-          >
+          <a href={Pdf} target="_blank" rel="noopener noreferrer">
             <i
               className={
                 color === "white"
