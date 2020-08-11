@@ -10,6 +10,16 @@ const HomePortfolio = ({ hiLightProjs }) => {
       >
         <h2 className="text-center text-dark">My Portfolio</h2>
         <ProjectContainer hiLightProjs={hiLightProjs} />
+
+        <div className="text-center">
+          <a
+            className="btn btn-outline-primary"
+            href="./portfolio.html"
+            role="button"
+          >
+            View More
+          </a>
+        </div>
       </section>
     </React.Fragment>
   );
