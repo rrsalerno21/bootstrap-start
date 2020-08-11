@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/NavBar.css";
+import Pdf from "../images/robert-salerno-full-stack-developer-resume.pdf";
 
 const NavBar = () => {
   return (
@@ -25,8 +25,9 @@ const NavBar = () => {
           <li className="nav-item">
             <a
               className="nav-link"
-              href="public/docs/robert-salerno-full-stack-developer-resume.pdf"
+              href={Pdf}
               target="_blank"
+              rel="noopener noreferrer"
             >
               Resume
             </a>
