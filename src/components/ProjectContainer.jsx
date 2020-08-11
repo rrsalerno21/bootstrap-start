@@ -1,11 +1,11 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 
-const ProjectContainer = ({ hiLightProjs }) => {
+const ProjectContainer = ({ projects }) => {
   return (
     <React.Fragment>
       <div className="row justify-content-center">
-        {hiLightProjs.map((project) => (
+        {projects.map((project) => (
           <ProjectCard key={project.name} project={project} />
         ))}
       </div>

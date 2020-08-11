@@ -1,6 +1,6 @@
 import React from "react";
 
-const SocialIconLine = () => {
+const SocialIconLine = ({ color }) => {
   return (
     <React.Fragment>
       <div id="social" className="row justify-content-center mb-2 mx-2">
@@ -10,7 +10,13 @@ const SocialIconLine = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-linkedin-in font-my-gradient"></i>
+            <i
+              className={
+                color === "white"
+                  ? "fab fa-linkedin-in text-white"
+                  : "fab fa-linkedin-in font-my-gradient"
+              }
+            ></i>
           </a>
         </div>
         <div className="col-auto mx-1">
@@ -19,7 +25,13 @@ const SocialIconLine = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-github-square font-my-gradient"></i>
+            <i
+              className={
+                color === "white"
+                  ? "fab fa-github-square text-white"
+                  : "fab fa-github-square font-my-gradient"
+              }
+            ></i>
           </a>
         </div>
         <div className="col-auto mx-1">
@@ -28,7 +40,13 @@ const SocialIconLine = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-stack-overflow font-my-gradient"></i>
+            <i
+              className={
+                color === "white"
+                  ? "fab fa-stack-overflow text-white"
+                  : "fab fa-stack-overflow font-my-gradient"
+              }
+            ></i>
           </a>
         </div>
         <div className="col-auto mx-1">
@@ -37,7 +55,13 @@ const SocialIconLine = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-facebook-square font-my-gradient"></i>
+            <i
+              className={
+                color === "white"
+                  ? "fab fa-facebook-square text-white"
+                  : "fab fa-facebook-square font-my-gradient"
+              }
+            ></i>
           </a>
         </div>
         <div className="col-auto mx-1">
@@ -45,7 +69,13 @@ const SocialIconLine = () => {
             href="assets/images/robert-salerno-full-stack-developer-resume.pdf"
             target="_blank"
           >
-            <i className="fas fa-file font-my-gradient"></i>
+            <i
+              className={
+                color === "white"
+                  ? "fas fa-file text-white"
+                  : "fas fa-file font-my-gradient"
+              }
+            ></i>
           </a>
         </div>
       </div>

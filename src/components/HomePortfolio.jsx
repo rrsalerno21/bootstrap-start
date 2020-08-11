@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectContainer from "./ProjectContainer";
 
-const HomePortfolio = ({ hiLightProjs }) => {
+const HomePortfolio = ({ projects }) => {
   return (
     <React.Fragment>
       <section
@@ -9,7 +9,7 @@ const HomePortfolio = ({ hiLightProjs }) => {
         className="container-fluid p-3 bg-light text-dark"
       >
         <h2 className="text-center text-dark">My Portfolio</h2>
-        <ProjectContainer hiLightProjs={hiLightProjs} />
+        <ProjectContainer projects={projects} />
 
         <div className="text-center">
           <a

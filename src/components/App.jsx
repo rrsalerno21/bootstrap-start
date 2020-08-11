@@ -1,9 +1,9 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavBar from "./NavBar";
-import Hero from "./Hero";
-import AboutMe from "./AboutMe";
-import "../styles/App.css";
-import HomePortfolio from "./HomePortfolio";
+import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./Contact";
 import {
   forgetMeNot,
   noteTaker,
@@ -69,16 +69,24 @@ class App extends Component {
   render() {
     const hiLightProjs = this.state.allProjects.slice(0, 3);
     return (
-      <React.Fragment>
+      <Router>
         <header>
           <NavBar />
-          <Hero />
         </header>
         <main>
-          <AboutMe />
-          <HomePortfolio hiLightProjs={hiLightProjs} />
+          <Route
+            exact
+            path="/"
+            render={() => <Home projects={hiLightProjs} />}
+          />
+          <Route
+            exact
+            path="/portfolio"
+            render={() => <Portfolio projects={this.state.allProjects} />}
+          />
         </main>
-      </React.Fragment>
+        <Contact />
+      </Router>
     );
   }
 }
