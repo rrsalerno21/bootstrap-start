@@ -3,7 +3,7 @@ import React from "react";
 const ProjectCard = ({ project }) => {
   return (
     <React.Fragment>
-      <div className="col-sm text-center">
+      <div className="col-md text-center">
         <div className="card card-top-spacing shadow p-3 mb-5 bg-white rounded">
           <img
             src={project.img}
@@ -22,14 +22,11 @@ const ProjectCard = ({ project }) => {
               Check It Out
             </a>
             <br />
-            <a
-              href={project.gH}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="my-2"
-            >
-              View GitHub
-            </a>
+            <div className="mt-1">
+              <a href={project.gH} target="_blank" rel="noopener noreferrer">
+                View GitHub
+              </a>
+            </div>
           </div>
         </div>
       </div>

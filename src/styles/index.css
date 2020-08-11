@@ -136,11 +136,24 @@ footer {
   }
 }
 
+/* Media query for screen sizes larger than mobile */
+@media only screen and (min-width: 640.08px) {
+  /* hide on tablet and desktop */
+  .hide-tablet-and-desktop {
+    display: none;
+  }
+}
+
 /* Media query for smaller screen sizes */
 @media only screen and (max-width: 640px) {
   /* Adjust h1 font-size on smaller screen */
   h1 {
     font-size: 40px !important;
+  }
+
+  /* Adjust nav font-size on mobile */
+  .nav {
+    font-size: 13px;
   }
 
   /* Adjust nav bar spacing and center text */
@@ -160,6 +173,7 @@ footer {
   /* Remove Contact Nav Item Button border */
   #outline-button {
     border: 0px solid white;
+    font-size: 13px;
   }
 
   /* Change Contact Nav Item Button hover effects */
@@ -167,6 +181,11 @@ footer {
     color: #0056b3;
     background-color: #ffffff;
     border-color: #ffffff;
+  }
+
+  /* Align text left on mobile */
+  .mobile-text-left-align {
+    text-align: left;
   }
 
   /* Change contact form container width to align center */
