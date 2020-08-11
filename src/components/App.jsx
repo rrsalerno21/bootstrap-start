@@ -5,13 +5,13 @@ import AboutMe from "./AboutMe";
 import "../styles/App.css";
 import HomePortfolio from "./HomePortfolio";
 import {
+  forgetMeNot,
   noteTaker,
   seeFood,
   toDoList,
   weatherApp,
   workDayCalendar,
 } from "../images/";
-import forgetMeNot from "../images/forget-me-not-app-dashboard-jpg.jpg";
 
 class App extends Component {
   state = {
@@ -20,7 +20,7 @@ class App extends Component {
         name: "Forget Me Not",
         src: "https://secret-journey-60945.herokuapp.com/",
         gH: "https://github.com/rrsalerno21/project-2",
-        img: { forgetMeNot },
+        img: forgetMeNot,
         desc:
           "Securly keep track of your to-do lists while viewing current COVID data by state.",
       },
@@ -28,7 +28,7 @@ class App extends Component {
         name: "seeFood",
         src: "https://goodbyetonto.github.io/first-project/",
         gH: "https://github.com/goodbyetonto/first-project",
-        img: { seeFood },
+        img: seeFood,
         desc:
           "Out of recipe ideas? Type in the ingredients from your fridge to view some recipes.",
       },
@@ -36,7 +36,7 @@ class App extends Component {
         name: "To-Do List",
         src: "https://safe-crag-88630.herokuapp.com/",
         gH: "https://github.com/rrsalerno21/to-do-list-app",
-        img: { toDoList },
+        img: toDoList,
         desc:
           "Got a lot on your mind? Add your To-Do list with ease with this full stack web app.",
       },
@@ -44,7 +44,7 @@ class App extends Component {
         name: "Note Taker App",
         src: "https://desolate-coast-15731.herokuapp.com/",
         gH: "https://github.com/rrsalerno21/note-taker-app",
-        img: { noteTaker },
+        img: noteTaker,
         desc:
           "Need to jot down a quick idea? Use the note taker app to store your ideas locally to your browser.",
       },
@@ -52,7 +52,7 @@ class App extends Component {
         name: "Weather App",
         src: "https://rrsalerno21.github.io/weather-app/",
         gH: "https://github.com/rrsalerno21/weather-app",
-        img: { weatherApp },
+        img: weatherApp,
         desc:
           "Need a quick 5 day forecast? Check out the weather with a quick search and feel prepared for the day.",
       },
@@ -60,7 +60,7 @@ class App extends Component {
         name: "Workday Calendar App",
         src: "https://rrsalerno21.github.io/calendar-app/",
         gH: "https://github.com/rrsalerno21/calendar-app",
-        img: { workDayCalendar },
+        img: workDayCalendar,
         desc:
           "Schedule out your day quickly with a workday calendar app that'll save locally to your browser",
       },

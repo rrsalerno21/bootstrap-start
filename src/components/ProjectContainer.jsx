@@ -6,9 +6,7 @@ const ProjectContainer = ({ hiLightProjs }) => {
     <React.Fragment>
       <div className="row justify-content-center">
         {hiLightProjs.map((project) => (
-          <div className="col-sm text-center">
-            <ProjectCard project={project} />
-          </div>
+          <ProjectCard key={project.name} project={project} />
         ))}
       </div>
     </React.Fragment>
