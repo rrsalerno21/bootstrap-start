@@ -6,6 +6,16 @@
       "src": "favicon.ico",
       "sizes": "50x50",
       "type": "image/x-icon"
+    },
+    {
+      "src": "rocky-salerno-portfolio-icon-192.jpg",
+      "sizes": "192x192",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "rocky-salerno-portfolio-icon-500.png",
+      "sizes": "500x500",
+      "type": "image/x-icon"
     }
   ],
   "start_url": "/",

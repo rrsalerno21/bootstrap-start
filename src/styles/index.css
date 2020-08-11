@@ -187,9 +187,4 @@ footer {
   .mobile-text-left-align {
     text-align: left;
   }
-
-  /* Change contact form container width to align center */
-  #contact-section {
-    margin: 0px auto !important;
-  }
 }

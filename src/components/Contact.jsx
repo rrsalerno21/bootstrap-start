@@ -3,7 +3,7 @@ import SocialIconLine from "./SocialIconLine";
 
 const Contact = () => {
   return (
-    <footer className="my-0 pt-1" id="contact-me-section">
+    <footer className="my-0 pt-1" id="contact-me">
       <div className="container-fluid bg-dark p-3">
         <div className="text-white text-center align-self-center my-3">
           <h2>Let's Connect</h2>
