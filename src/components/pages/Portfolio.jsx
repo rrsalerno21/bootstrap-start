@@ -5,7 +5,7 @@ const Portfolio = ({ projects }) => {
   const firstRow = projects.slice(0, 3);
   const secondRow = projects.slice(3, 6);
   return (
-    <React.Fragment>
+    <div className="bg-light">
       <h1 className="text-center text-black bg-light mb-0 pt-3 display-4">
         My Portfolio
       </h1>
@@ -17,7 +17,7 @@ const Portfolio = ({ projects }) => {
         <ProjectContainer projects={firstRow} />
         <ProjectContainer projects={secondRow} />
       </section>
-    </React.Fragment>
+    </div>
   );
 };
 
