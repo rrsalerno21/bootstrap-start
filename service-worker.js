@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/rrsalerno21.github.io/precache-manifest.83be59547b3503a407bb75fcaa21804a.js"
+  "/rrsalerno21.github.io/precache-manifest.56707c7f4d512ed88bb743c25937e28a.js"
 );
 
 self.addEventListener('message', (event) => {
