@@ -1,5 +1,5 @@
 import React from "react";
-import Pdf from "../images/robert-salerno-full-stack-developer-resume.pdf";
+import Pdf from "../images/robert-salerno-full-stack-web-developer-resume.pdf";
 
 const SocialIconLine = ({ color }) => {
   return (

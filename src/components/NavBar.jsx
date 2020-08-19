@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Pdf from "../images/robert-salerno-full-stack-developer-resume.pdf";
+import Pdf from "../images/robert-salerno-full-stack-web-developer-resume.pdf";
 
 const NavBar = () => {
   return (
