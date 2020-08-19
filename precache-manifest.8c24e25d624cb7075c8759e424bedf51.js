@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d68ecc3c1eb286cd6f66113055984f24",
+    "revision": "e00ec93380623d51ce7db137e3dea0d3",
     "url": "/rrsalerno21.github.io/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rrsalerno21.github.io/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "b150318bae1845c8e64f",
+    "revision": "597f05654335686eee1c",
     "url": "/rrsalerno21.github.io/static/css/main.3ed1b54e.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rrsalerno21.github.io/static/js/2.7a322962.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b150318bae1845c8e64f",
-    "url": "/rrsalerno21.github.io/static/js/main.61fbcb09.chunk.js"
+    "revision": "597f05654335686eee1c",
+    "url": "/rrsalerno21.github.io/static/js/main.6386f965.chunk.js"
   },
   {
     "revision": "87dca5704daec7a8561c",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rrsalerno21.github.io/static/media/note-taker-app.8f961800.jpg"
   },
   {
-    "revision": "ebfeb43e082d08292a31d85cf022d116",
-    "url": "/rrsalerno21.github.io/static/media/robert-salerno-full-stack-developer-resume.ebfeb43e.pdf"
+    "revision": "b9f1edb552eb20b277532b2b722d5004",
+    "url": "/rrsalerno21.github.io/static/media/robert-salerno-full-stack-web-developer-resume.b9f1edb5.pdf"
   },
   {
     "revision": "30547c6687bf707435f74afe1d58c373",
